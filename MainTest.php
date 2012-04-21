@@ -1,0 +1,9 @@
+<?php
+require_once 'PHPUnit/Framework/TestCase.php';
+class MainTest extends PHPUnit_Framework_TestCase
+{
+	public function testEmptyTest()
+	{
+		$this->assertTrue(true);
+	}
+}
